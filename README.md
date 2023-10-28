@@ -1,4 +1,5 @@
 # About
+The whitelist contract is a smart contract written in Solidity that allows for the creation and management of a whitelist of addresses. It includes a variable called `maxWhitelistedAddresses` which represents the maximum number of addresses that can be whitelisted. The contract provides a function called `addAddressToWhitelist` which allows the anyone to add addresses to the whitelist if the `maxWhitelistedAddresses` limit is not reached.
 
 # initializations
 ```bash
@@ -23,18 +24,4 @@ The contract 0xD98eA6f55AE77bdE11556A9BE77647C5DCA16200 has already been verifie
 
 https://sepolia.etherscan.io/address/0xD98eA6f55AE77bdE11556A9BE77647C5DCA16200#code
 
-# Basic Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```

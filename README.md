@@ -17,7 +17,7 @@ To deploy your contract, type the following in your Terminal:
 npx hardhat run scripts/deploy.js --network sepolia
 ```
 
-# contract information 
+# contract deployment information 
 Whitelist Contract Address: 0xD98eA6f55AE77bdE11556A9BE77647C5DCA16200
 
 The contract 0xD98eA6f55AE77bdE11556A9BE77647C5DCA16200 has already been verified.
